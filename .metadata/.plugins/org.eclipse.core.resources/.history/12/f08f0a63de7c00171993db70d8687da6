@@ -1,0 +1,5 @@
+package net.multicampus.dev.mvc;
+
+public class MvcController {
+
+}

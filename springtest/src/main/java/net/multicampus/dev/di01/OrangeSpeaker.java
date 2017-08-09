@@ -2,7 +2,7 @@ package net.multicampus.dev.di01;
 
 import org.springframework.stereotype.Component;
 
-@Component("speaker") // -> 자동으로 인스턴스 생성(beaninit.xml에서 설정함), speaker이름으로 갖다쓸수있음
+@Component // -> 자동으로 인스턴스 생성(beaninit.xml에서 설정함)
 public class OrangeSpeaker implements Speaker {
 
 	@Override

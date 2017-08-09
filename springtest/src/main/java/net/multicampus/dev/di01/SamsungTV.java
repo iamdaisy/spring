@@ -1,12 +1,14 @@
 package net.multicampus.dev.di01;
 
+import javax.inject.Inject;
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class SamsungTV implements TV {
 	
+	@Inject
 	private Speaker speaker;
-	
-	public void setSpeaker(Speaker speaker) {
-		this.speaker = speaker;
-	}
 		
 	public void powerOn() {
 		System.out.println("SamsungTV : TV를 켭니다.");
